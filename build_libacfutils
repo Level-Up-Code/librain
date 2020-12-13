@@ -1,0 +1,13 @@
+git clone --recursive https://github.com/skiselkov/libacfutils.git
+cd libacfutils
+
+./build_deps
+
+case $(uname) in
+Linux)
+    cd qmake && ./build-win-lin
+    ;;
+Darwin)
+    cd qmake && ./build-mac
+    ;;
+esac

@@ -47,8 +47,6 @@ static void setup_color_fbo_for_tex(GLuint fbo, GLuint tex, GLuint depth,
     GLuint stencil, bool_t depth_stencil_combo) UNUSED_ATTR;
 static bool_t reload_gl_prog(GLint *prog, const shader_prog_info_t *info)
     UNUSED_ATTR;
-static char	*shaderpath	UNUSED_ATTR;
-
 static char	*shaderpath = NULL;
 
 static void

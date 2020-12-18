@@ -21,4 +21,5 @@ plugin/qmake/release
 plugin/qmake/Makefile
 build/
 libacfutils/
-bin/
+librain/
+plugin/
